@@ -1,0 +1,95 @@
+@import '../../styles.scss';
+
+.order-container{
+    border-radius: 8px;
+    background-color: var(--neutral-color);
+    width:340px;
+    border:1px solid var(--primary-color);
+    
+}
+.order-header{
+    margin-bottom: 20px;;
+}
+.order-header img{
+    width:340px;
+    border-radius: 8px;
+    border:1px solid var(--primary-color);
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.order-title{
+    font-size:20px;
+    font-weight: 900;
+}
+.btn-payment{
+    margin:20px 30px;
+    button{
+        width:100%;
+        background-color: var(--secondary-color);
+        color: #FFF;
+        outline: none;
+        border-radius: 5px;
+        border:1px solid var(--secondary-color);
+        padding:10px;
+        font-size:10px;
+        font-weight: 700;
+        box-shadow: -2px 20px 9px 4px var(--primary-color);
+        -webkit-box-shadow: -2px 20px 9px 4px var(--primary-color);
+        -moz-box-shadow: -2px 20px 9px 4px var(--primary-color);
+    }
+    button:hover{
+       
+        opacity:0.5
+    }
+}
+.cancel-order{
+    margin-bottom: 30px;
+    a{
+        text-decoration: none;
+        font-size:10px;
+        color:var(--neutral-desaturated);
+    }
+}
+.annual-card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+   
+    background-color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    border-radius:5px;;
+    margin:0px 30px;
+    padding:10px 20px;
+    img{
+        width:25px;
+        filter:(brightness(0.9));
+        margin-right:10px;
+    }
+    .annual-plan-card{
+        display:flex;
+        flex-direction:column;
+        .annual-text{
+            font-size:10px;
+            font-weight:900;
+        }
+        .annual-value{
+            font-size:10px;
+            color:var(--neutral-dark-color);
+        }
+    }
+    .anchor-content{
+        flex-grow: 1;
+        text-align: end;
+        a{
+            color: var(--secondary-color);
+            font-size: 10px;;
+            font-weight: 900;
+        }
+        a:hover{
+            text-decoration: none;
+            opacity:0.5;
+        }
+    }
+    
+}
